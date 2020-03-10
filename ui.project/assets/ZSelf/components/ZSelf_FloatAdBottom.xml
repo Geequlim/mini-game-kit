@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,210">
+  <controller name="show_bg" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <graph id="n0_q0b0" name="bg" xy="0,0" size="750,210" type="rect" lineSize="0" fillColor="#cc0a0c0b">
+      <gearDisplay controller="show_bg" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <list id="n1_q0b0" name="list" xy="0,6" size="750,198" layout="row" overflow="scroll" scroll="horizontal" margin="2,0,0,0" colGap="7" defaultItem="ui://o2ljtun7nd0013" align="center" vAlign="middle" autoClearItems="true">
+      <relation target="" sidePair="width-width,height-height"/>
+      <item controllers="text_color,0"/>
+      <item controllers="text_color,0"/>
+      <item controllers="text_color,0"/>
+      <item controllers="text_color,0"/>
+      <item controllers="text_color,0"/>
+      <item controllers="text_color,0"/>
+      <item controllers="text_color,0"/>
+    </list>
+  </displayList>
+</component>

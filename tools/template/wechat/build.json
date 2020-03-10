@@ -1,0 +1,36 @@
+{
+	"modules": [
+		{ "module": "bundle", "scripts": [ "bundle" ] },
+		{
+			"module": "laya",
+			"scripts": [
+				"laya.core",
+				"laya.html",
+				"laya.d3",
+				"laya.ui",
+				"laya.physics3D"
+			]
+		},
+		{
+			"module": "fairygui",
+			"scripts": [ "fairygui.laya" ]
+		},
+		{
+			"module": "wx",
+			"scripts": [ "weapp-adapter", "laya.wxmini" ]
+		}
+	],
+	"copy": [
+		{ "src": "game.js", "target": "game.js" },
+		{ "src": "tools/template/wechat/game.json", "target": "game.json" },
+		{ "src": "tools/template/wechat/project.config.json", "target": "project.config.json" },
+		{ "src": "tools/template/wechat/openDataContext", "target": "openDataContext" },
+		{ "src": "tools/template/wechat/sdk", "target": "sdk" }
+	],
+	"commands": [
+		{
+			"name": "subpackage",
+			"command": "python tools/subpackage/make_subpackages.py wechat"
+		}
+	]
+}

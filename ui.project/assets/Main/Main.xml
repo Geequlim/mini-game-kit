@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <image id="n0_ptiv" name="n0" src="ptivg" fileName="res/background.png" pkg="dzj5bdmr" xy="0,0" size="750,1334">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n1_ptiv" name="title" xy="93,126" size="537,161" group="n6_ea2a" fontSize="60" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="Main Scene"/>
+    <image id="n4_ptiv" name="n4" src="ptiv2" fileName="res/ic_fairygui.png" xy="167,495" group="n6_ea2a"/>
+    <image id="n5_ptiv" name="n5" src="ptiv3" fileName="res/ic_laya.png" xy="414,460" group="n6_ea2a" color="#ff0033"/>
+    <image id="n8_6czy" name="n8" src="ptiv2" fileName="res/ic_fairygui.png" xy="312,315" group="n6_ea2a" color="#ff0000"/>
+    <group id="n6_ea2a" name="n6" xy="93,126" size="537,534" collapsed="true"/>
+    <component id="n2_ptiv" name="bt_dialog" src="ptiv4" fileName="Button.xml" pkg="dzj5bdmr" xy="130,797" size="249,68">
+      <Button title="弹出窗口"/>
+    </component>
+    <component id="n7_ea2a" name="bt_toast" src="ptiv4" fileName="Button.xml" pkg="dzj5bdmr" xy="130,699" size="249,68">
+      <Button title="弹出提示"/>
+    </component>
+    <component id="n9_h4h1" name="bt_scene" src="ptiv4" fileName="Button.xml" pkg="dzj5bdmr" xy="134,985" size="249,68">
+      <Button title="显示3D场景"/>
+    </component>
+    <component id="n10_h4h1" name="bt_banner" src="ptiv4" fileName="Button.xml" pkg="dzj5bdmr" xy="409,891" size="249,68">
+      <Button title="展示Banner广告"/>
+    </component>
+    <component id="n11_h4h1" name="bt_pay" src="ptiv4" fileName="Button.xml" pkg="dzj5bdmr" xy="409,797" size="249,68">
+      <Button title="视频点计费"/>
+    </component>
+    <component id="n12_h4h1" name="bt_sound" src="ptiv4" fileName="Button.xml" pkg="dzj5bdmr" xy="409,699" size="249,68">
+      <Button title="播放音效"/>
+    </component>
+    <component id="n13_h4h1" name="bt_sound_switch" src="ptiv4" fileName="Button.xml" pkg="dzj5bdmr" xy="134,891" size="249,68">
+      <Button title="音效: 开关"/>
+    </component>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Color" target="n1_ptiv" tween="true" startValue="#ffffff" endValue="#ff0000" duration="48"/>
+    <item time="0" type="Color" target="n5_ptiv" tween="true" startValue="#ffffff" endValue="#ff0000" duration="24"/>
+    <item time="24" type="Color" target="n5_ptiv" tween="true" startValue="#ff0000" endValue="#ffff00" duration="24"/>
+    <item time="48" type="Color" target="n5_ptiv" tween="true" startValue="#ffff00"/>
+  </transition>
+</component>

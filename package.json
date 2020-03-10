@@ -1,0 +1,46 @@
+{
+	"name": "mini-game-kit",
+	"license": "MIT",
+	"scripts": {
+		"dev": "webpack --config webpack.config.js --watch",
+		"run": "http-server -p 3100",
+		"scene2code": "node tools/laya.scene2code.js",
+		"clean": "node tools/clean.js",
+		"compile": "webpack --config webpack.config.js --env.production",
+		"analyze-bundle": "node ./tools/compile.analyze.js",
+		"minify-libs": "node tools/minify-libs.js",
+		"publish-wechat": "node tools/publish.js wechat",
+		"publish-qq": "node tools/publish.js qq",
+		"publish-baidu": "node tools/publish.js baidu",
+		"publish-oppo": "node tools/publish.js oppo",
+		"publish-bytedance": "node tools/publish.js bytedance",
+		"publish-vivo": "node tools/publish.js vivo",
+		"publish-qtt": "node tools/publish.js qtt",
+		"publish-pure": "node tools/publish.js pure"
+	},
+	"devDependencies": {
+		"@node-minify/core": "^5.2.0",
+		"@node-minify/uglify-es": "^5.2.0",
+		"@types/node": "^12.12.7",
+		"@types/query-string": "^6.3.0",
+		"@types/shelljs": "^0.8.6",
+		"@types/tween.js": "^17.2.0",
+		"babel": "^6.23.0",
+		"babel-cli": "^6.26.0",
+		"babel-minify": "^0.5.1",
+		"babel-preset-es2015": "^6.24.1",
+		"http-server": "^0.9.0",
+		"shelljs": "^0.8.3",
+		"ts-loader": "^6.0.4",
+		"tsconfig-paths-webpack-plugin": "^3.2.0",
+		"tslib": "^1.10.0",
+		"typescript": "^3.7.2",
+		"webpack": "^4.41.0",
+		"webpack-bundle-analyzer": "^3.6.0",
+		"webpack-dev-server": "^3.8.2",
+		"webpack-cli": "^3.3.9"
+	},
+	"dependencies": {
+		"query-string": "^6.8.3"
+	}
+}

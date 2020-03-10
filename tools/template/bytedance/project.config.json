@@ -1,0 +1,11 @@
+{
+    "setting": {
+        "urlCheck": false,
+        "es6": false,
+        "postcss": false,
+        "minified": false,
+        "newFeature": true
+    },
+    "appid": "tt4dcb3b76d2e178a7",
+    "projectname": "mini-game-kit"
+}

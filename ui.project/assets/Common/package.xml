@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="dzj5bdmr" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="tapq0" name="ScaleButton.xml" path="/" exported="true"/>
+    <image id="ptiv2" name="b5.png" path="/res/" exported="true" scale="9grid" scale9grid="3,3,68,11"/>
+    <image id="ptiv3" name="b6.png" path="/res/" exported="true" scale="9grid" scale9grid="4,2,65,12"/>
+    <image id="ptiv1" name="b7.png" path="/res/" exported="true" scale="9grid" scale9grid="4,2,67,13"/>
+    <image id="ptivg" name="background.png" path="/res/" exported="true" scale="9grid" scale9grid="11,8,192,115" qualityOption="source"/>
+    <component id="ptiv4" name="Button.xml" path="/" exported="true"/>
+    <image id="ea2a2j" name="f3.png" path="/res/" exported="true"/>
+    <image id="ea2a2i" name="f4.png" path="/res/" exported="true"/>
+    <image id="ea2a2h" name="f5.png" path="/res/" exported="true"/>
+    <image id="ea2av" name="f1.png" path="/res/" exported="true" scale="9grid" scale9grid="18,36,345,205" qualityOption="source"/>
+    <component id="ea2a3f" name="WindowFrame.xml" path="/Window/" exported="true"/>
+    <component id="ea2a3g" name="WindowCloseButton.xml" path="/Window/" exported="true"/>
+    <component id="cjnq5" name="ToastView.xml" path="/" exported="true"/>
+  </resources>
+  <publish name="Common" genCode="true"/>
+</packageDescription>

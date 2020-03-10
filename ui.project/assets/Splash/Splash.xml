@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <image id="n4_ptiv" name="n4" src="ptiv3" fileName="res/background.png" xy="0,0" size="750,1334">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n2_m2yw" name="title" xy="106,396" size="537,161" fontSize="60" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="Splash Screen"/>
+    <text id="n6_6czy" name="n6" xy="561,1292" size="188,41" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="XEngine 1.0.0">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </text>
+    <image id="n8_r1k4" name="n8" src="r1k41c" fileName="res/loading.png" xy="375,846" pivot="0.5,0.5" anchor="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n8_r1k4" tween="true" startValue="0" endValue="360" duration="48"/>
+  </transition>
+</component>

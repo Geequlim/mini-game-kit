@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="159,191" pivot="0.5,0.5" extention="Button">
+  <controller name="text_color" exported="true" pages="0,blank,1,white,3,longbg" selected="2"/>
+  <displayList>
+    <graph id="n21_zfl2" name="n21" xy="0,6" size="155,183" type="rect" lineSize="0" corner="10">
+      <gearSize controller="text_color" pages="3" values="155,183,1,1" default="155,150,1,1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n22_zfl2" name="title" xy="1,162" size="154,27" fontSize="20" color="#333333" align="center" vAlign="middle" autoSize="shrink" text="地球刷一刷">
+      <gearColor controller="text_color" pages="0,3" values="#333333,#000000|#333333,#000000" default="#ffffff,#000000"/>
+    </text>
+    <component id="n23_zfl2" name="icon_item" src="nd0012" fileName="ad/float_ad_icon.xml" xy="2,9" size="150,144">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <image id="n24_qmpj" name="red" src="nd0014" fileName="res/ad/红点小@2x.png" xy="129,2" scale="1.12,1.12">
+      <relation target="" sidePair="right-right,top-top"/>
+    </image>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.90"/>
+</component>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="dyaqtnkv" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="ptiv0" name="Main.xml" path="/" exported="true"/>
+    <image id="ptiv2" name="ic_fairygui.png" path="/res/"/>
+    <image id="ptiv3" name="ic_laya.png" path="/res/"/>
+    <component id="ea2a4" name="TestDialog.xml" path="/popups/" exported="true"/>
+  </resources>
+  <publish name="Main" genCode="true"/>
+</packageDescription>

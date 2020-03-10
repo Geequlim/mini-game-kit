@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="600,110">
+  <displayList>
+    <graph id="n2_cjnq" name="n2" xy="0,0" size="600,110" type="rect" lineSize="6" lineColor="#ffcccccc" fillColor="#ff333333" corner="20">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n0_cjnq" name="text" xy="25,1" size="555,110" fontSize="40" color="#cccccc" align="center" vAlign="middle" autoSize="none" text="Hello World">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <transition name="anim">
+    <item time="0" type="XY" tween="true" startValue="0,-211" endValue="0,0" duration="12"/>
+    <item time="48" type="XY" tween="true" startValue="0,0" endValue="0,-114" duration="24"/>
+  </transition>
+</component>

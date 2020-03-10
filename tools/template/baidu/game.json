@@ -1,0 +1,10 @@
+{
+	"deviceOrientation": "portrait",
+	"openDataContext": "openDataContext",
+	"subpackages": [
+		{
+			"name": "assets",
+			"root": "assets"
+		}
+	]
+}

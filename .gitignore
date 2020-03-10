@@ -1,0 +1,9 @@
+node_modules
+libs/modules/**/*.min.js
+yarn.lock
+ui.project/.objs
+libs/modules/bundle
+assets/ui
+assets/unity_exported
+src/view/raw
+release

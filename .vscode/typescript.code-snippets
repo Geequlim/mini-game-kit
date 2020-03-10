@@ -1,0 +1,92 @@
+{
+	"定义游戏对话框": {
+		"prefix": "dialog",
+		"body": [
+			"import DialogWindow, { DialogInfo, dialog } from \"xengine/view/DialogWindow\";",
+			"",
+			"@dialog(\"$2\")",
+			"export default class $1 extends DialogWindow {",
+			"",
+			"    makeDialog(): DialogInfo {",
+			"        return {",
+			"            inst: $3.createInstance(),",
+			"            modal: true",
+			"        };",
+			"    }",
+			"",
+			"    constructor() {",
+			"        super();",
+			"    }",
+			"",
+			"    onReadyToShow() {",
+			"        ",
+			"    }",
+			"}",
+			""
+		],
+		"description": "定义游戏对话框"
+	},
+	"创建UI视图类": {
+		"prefix": "uiview",
+		"body": [
+			"export default class $1 extends $2 {",
+			"    constructFromResource() {",
+			"        super.constructFromResource();",
+			"    }",
+			"}"
+		],
+		"description": "创建UI视图类"
+	},
+	"创建游戏模块": {
+		"prefix": "module",
+		"body": [
+			"import Module, { game_module } from \"xengine/game/Module\";",
+			"",
+			"@game_module(\"$2\")",
+			"export default class $1 extends Module {",
+			"",
+			"    constructor() {",
+			"        super();",
+			"    }",
+			"",
+			"    initialize() {",
+			"        ",
+			"    }",
+			"",
+			"    update(dt: number) {",
+			"",
+			"    }",
+			"}",
+			""
+		],
+		"description": "创建游戏模块"
+	},
+	"获取模块": {
+		"prefix": "getm",
+		"body": [
+			"Game.inst.get_module<$1>($1)"
+		],
+		"description": "获取模块"
+	},
+	"延迟一段时间": {
+		"prefix": "wait",
+		"body": [
+			"await Game.inst.timer.wait($1);"
+		],
+		"description": "延迟一段时间"
+	},
+	"弹出窗口": {
+		"prefix": "showdlg",
+		"body": [
+			"XEngine.inst.fairygui_helper.show_dialog($1);"
+		],
+		"description": "弹出窗口"
+	},
+	"弹出Toast": {
+		"prefix": "toast",
+		"body": [
+			"XEngine.inst.fairygui_helper.toast.popup(`$1`);"
+		],
+		"description": "弹出Toast"
+	}
+}

@@ -1,0 +1,29 @@
+{
+    "package": "test.game.oppo",
+    "name": "测试OPPO小游戏",
+    "versionName": "1.0",
+    "versionCode": 1,
+    "minPlatformVersion": 1050,
+    "icon": "./logo.png",
+    "orientation": "portrait",
+    "type": "game",
+    "config": {
+        "logLevel": "log"
+    },
+    "features": [
+        {
+            "name": "system.prompt"
+        },
+        {
+            "name": "system.router"
+        },
+        {
+            "name": "system.shortcut"
+        }
+    ],
+    "permissions": [
+        {
+            "origin": "*"
+        }
+    ]
+}

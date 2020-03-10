@@ -1,0 +1,49 @@
+{
+	"modules": [
+		{ "module": "bundle", "scripts": [ "bundle" ] },
+		{
+			"module": "laya",
+			"scripts": [
+				"laya.core",
+				"laya.html",
+				"laya.vvmini",
+				"laya.d3",
+				"laya.ui",
+				"laya.physics3D"
+			]
+		},
+		{
+			"module": "fairygui",
+			"scripts": [
+				"fairygui.laya"
+			]
+		},
+		{
+			"module": "vivo",
+			"scripts": [
+				"qgame-adapter"
+			]
+		}
+	],
+	"copy": [
+		{ "src": "game.js", "target": "game.js" },
+		{ "src": "tools/template/vivo/src", "target": "src" },
+		{ "src": "tools/template/vivo/sign", "target": "sign" },
+		{ "src": "tools/template/vivo/package.json", "target": "package.json" },
+		{ "src": "tools/template/vivo/yarn.lock", "target": "yarn.lock" }
+	],
+	"commands": [
+		{
+			"name": "subpackage",
+			"command": "python tools/subpackage/make_subpackages.py vivo"
+		},
+		{
+			"name": "small_files",
+			"command": "python tools/subpackage/copy_small_files.py vivo"
+		},
+		{
+			"name": "subpackage",
+			"command": "node tools/make_vivo_rpk.js"
+		}
+	]
+}

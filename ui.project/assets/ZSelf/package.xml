@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="o2ljtun7" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="nd0012" name="ZSelf_float_ad_icon.xml" path="/components/" exported="true"/>
+    <component id="nd0013" name="ZSelf_float_ad_item.xml" path="/components/" exported="true"/>
+    <image id="nd0014" name="红点小@2x.png" path="/res/"/>
+    <component id="nd0015" name="ZSelf_FloatAd.xml" path="/components/" exported="true"/>
+    <image id="nd0016" name="sp_guanggaobg.png" path="/res/" scale="9grid" scale9grid="24,17,22,30"/>
+    <component id="nd0017" name="ZSelf_FloatAdBottom.xml" path="/components/" exported="true"/>
+    <image id="nd0019" name="背景@2x.png" path="/res/"/>
+    <image id="nd001a" name="好友热玩@2x.png" path="/res/"/>
+    <image id="nd001b" name="bg2@2x.png" path="/res/" scale="9grid" scale9grid="175,45,350,90"/>
+    <image id="nd001c" name="热门推荐@2x.png" path="/res/"/>
+    <image id="nd001e" name="继续游戏.png" path="/res/"/>
+    <image id="nd001f" name="未命名_第二盒子2.png" path="/res/"/>
+    <image id="nd001h" name="返回@2x.png" path="/res/"/>
+    <component id="nd001j" name="ZSelf_center_ad_item.xml" path="/components/" exported="true"/>
+    <image id="nd001k" name="bg1@2x.png" path="/res/" scale="9grid" scale9grid="53,18,106,36"/>
+    <image id="nd001l" name="红点大@2x.png" path="/res/"/>
+    <image id="nd001n" name="广告侧拉.png" path="/res/" scale="9grid" scale9grid="27,463,55,172"/>
+    <image id="nd001o" name="好友热玩.png" path="/res/"/>
+    <image id="nd001p" name="侧拉按钮.png" path="/res/"/>
+    <image id="nd001q" name="提示.png" path="/res/"/>
+    <component id="nd001s" name="ZSelf_HotGamesAd.xml" path="/components/" exported="true"/>
+    <image id="nd001t" name="爆款游戏.png" path="/res/"/>
+    <component id="nd001v" name="Button2.xml" path="/res/"/>
+    <image id="nd001w" name="btn_anniu0.png" path="/res/"/>
+    <image id="nd001y" name="sp_guanggaobg(1).png" path="/res/"/>
+  </resources>
+  <publish name="ZSelf" genCode="true"/>
+</packageDescription>

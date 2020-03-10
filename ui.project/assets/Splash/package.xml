@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="d5tzyd09" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="m2yw0" name="Splash.xml" path="/" exported="true"/>
+    <component id="m2yw2" name="ProgressBar.xml" path="/"/>
+    <image id="ptiv3" name="background.png" path="/res/" scale="9grid" scale9grid="11,8,192,115" qualityOption="source"/>
+    <image id="ptiv1b" name="p2.png" path="/res/" scale="9grid" scale9grid="10,4,121,4" qualityOption="source"/>
+    <image id="ptiv1a" name="p3.png" path="/res/" qualityOption="source"/>
+    <image id="r1k41c" name="loading.png" path="/res/"/>
+  </resources>
+  <publish name="Splash" genCode="true"/>
+</packageDescription>

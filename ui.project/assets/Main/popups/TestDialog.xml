@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="600,400">
+  <displayList>
+    <component id="n0_ea2a" name="frame" src="ea2a3f" fileName="Window/WindowFrame.xml" pkg="dzj5bdmr" xy="0,0" size="600,400">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <text id="n1_ea2a" name="lb_message" xy="66,147" size="467,105" fontSize="60" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="I'm a dialog"/>
+    <component id="n2_ea2a" name="bt_close" src="ea2a3g" fileName="Window/WindowCloseButton.xml" pkg="dzj5bdmr" xy="571,1">
+      <relation target="" sidePair="right-right"/>
+    </component>
+  </displayList>
+</component>

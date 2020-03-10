@@ -1,0 +1,24 @@
+{
+	"deviceOrientation": "portrait",
+	"openDataContext": "openDataContext",
+	"subpackages": [
+		{
+			"name": "assets",
+			"root": "assets"
+		}
+	],
+	"navigateToMiniProgramAppIdList": [
+		"wxbda81842474df36d",
+		"wx21468e993862a4ac",
+		"wx328189c8055838e6",
+		"wx18b51684ec7e7501",
+		"wxb7c846a59c2c3290",
+		"wxf72548cd96f894e0",
+		"wxa3926093ec78c94b",
+		"wx27080e75ce3d7891",
+		"wx1f501f62d07e3072",
+		"wxc4ab7f5c2b4b4f2d"
+	]
+
+
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="227,301" pivot="0.5,0.5" extention="Button" designImage="ui://o2ljtun7nd001f" designImageOffsetX="-367" designImageOffsetY="-396" designImageLayer="1">
+  <displayList>
+    <component id="n23_zfl2" name="icon_item" src="nd0012" fileName="ad/float_ad_icon.xml" xy="5,9" size="212,213"/>
+    <image id="n21_zfl2" name="n21" src="nd001k" fileName="res/ad/bg1@2x.png" xy="7,223" size="212,70"/>
+    <image id="n24_qmpj" name="red" src="nd001l" fileName="res/ad/红点大@2x.png" xy="191,0">
+      <relation target="" sidePair="right-right,top-top"/>
+    </image>
+    <text id="n22_zfl2" name="title" xy="9,230" size="207,35" fontSize="26" color="#333333" align="center" vAlign="middle" autoSize="shrink" text="地球刷一刷"/>
+    <text id="n25_qmpj" name="count" xy="20,261" size="185,29" fontSize="22" color="#999999" align="center" vAlign="middle" autoSize="shrink" text="地球刷一刷"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.90"/>
+</component>

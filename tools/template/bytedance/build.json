@@ -1,0 +1,33 @@
+{
+	"modules": [
+		{ "module": "bundle", "scripts": [ "bundle" ] },
+		{
+			"module": "laya",
+			"scripts": [
+				"laya.core",
+				"laya.html",
+				"laya.wxmini",
+				"laya.d3",
+				"laya.ui",
+				"laya.physics3D"
+			]
+		},
+		{
+			"module": "fairygui",
+			"scripts": [ "fairygui.laya" ]
+		},
+		{ "module": "wx", "scripts": [ "weapp-adapter" ] }
+	],
+	"copy": [
+		{ "src": "game.js", "target": "game.js" },
+		{ "src": "tools/template/bytedance/game.json", "target": "game.json" },
+		{ "src": "tools/template/bytedance/project.config.json", "target": "project.config.json" },
+		{ "src": "tools/template/bytedance/openDataContext", "target": "openDataContext" }
+	],
+	"commands": [
+		{
+			"name": "subpackage",
+			"command": "python tools/subpackage/make_subpackages.py bytedance"
+		}
+	]
+}
