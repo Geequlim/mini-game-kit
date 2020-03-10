@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" overflow="hidden">
+  <displayList>
+    <component id="n0_h4h1" name="bt_rot" src="ptiv4" fileName="Button.xml" pkg="dzj5bdmr" xy="281,1060" size="186,60">
+      <Button title="旋转"/>
+    </component>
+    <component id="n2_h4h1" name="bt_close" src="ptiv4" fileName="Button.xml" pkg="dzj5bdmr" xy="282,1185" size="186,60">
+      <Button title="关闭"/>
+    </component>
+  </displayList>
+</component>

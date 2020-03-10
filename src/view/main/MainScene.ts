@@ -7,10 +7,12 @@ import Game from "xengine/game/Game";
 import CommerceModule from "modules/commerce/CommerceModule";
 import { PayPoint } from "modules/commerce/payment";
 import { AudioModule } from "modules/audio";
+import Scene_SampleScene from "view/raw/3d/Scene3D_SampleScene";
 
 export default class MainScene extends UI_Main {
 
 	show_banner = false;
+	scene = new Scene_SampleScene()
 
 	constructFromResource() {
 		super.constructFromResource();
@@ -45,5 +47,31 @@ export default class MainScene extends UI_Main {
 			Game.inst.get_module<AudioModule>(AudioModule).sound_enabled = !Game.inst.get_module<AudioModule>(AudioModule).sound_enabled;
 			update_sound_switch();
 		});
+
+		FairyGUIBinder.onClick(this.m_bt_scene, null, ()=>{
+			if (this.scene.displayObject) {
+				this.m_scene_slot.visible = true;
+			}
+		});
+		this.m_scene_slot.visible = false;
+		this.load_scene();
+
+		FairyGUIBinder.onClick(this.m_scene_slot.m_bt_close, null, ()=>{
+			if (this.scene.displayObject) {
+				this.m_scene_slot.visible = false;
+			}
+		});
+		FairyGUIBinder.onClick(this.m_scene_slot.m_bt_rot, null, ()=>{
+			if (this.scene.displayObject) {
+				this.scene.cAnimator_Cube.play('anim_rot', 0, 0);
+			}
+		});
+	}
+
+	async load_scene() {
+		if (!this.scene.displayObject) {
+			await this.scene.instance();
+			this.m_scene_slot.displayObject.addChildAt(this.scene.displayObject, 0);
+		}
 	}
 }

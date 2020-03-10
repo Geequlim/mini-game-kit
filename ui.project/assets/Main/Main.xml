@@ -15,9 +15,6 @@
     <component id="n7_ea2a" name="bt_toast" src="ptiv4" fileName="Button.xml" pkg="dzj5bdmr" xy="130,699" size="249,68">
       <Button title="弹出提示"/>
     </component>
-    <component id="n9_h4h1" name="bt_scene" src="ptiv4" fileName="Button.xml" pkg="dzj5bdmr" xy="134,985" size="249,68">
-      <Button title="显示3D场景"/>
-    </component>
     <component id="n10_h4h1" name="bt_banner" src="ptiv4" fileName="Button.xml" pkg="dzj5bdmr" xy="409,891" size="249,68">
       <Button title="展示Banner广告"/>
     </component>
@@ -30,6 +27,10 @@
     <component id="n13_h4h1" name="bt_sound_switch" src="ptiv4" fileName="Button.xml" pkg="dzj5bdmr" xy="134,891" size="249,68">
       <Button title="音效: 开关"/>
     </component>
+    <component id="n9_h4h1" name="bt_scene" src="ptiv4" fileName="Button.xml" pkg="dzj5bdmr" xy="134,985" size="249,68">
+      <Button title="显示3D场景"/>
+    </component>
+    <component id="n14_h4h1" name="scene_slot" src="h4h15" fileName="SceneUI.xml" xy="2,0" size="746,1335" hideByEditor="true"/>
   </displayList>
   <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
     <item time="0" type="Color" target="n1_ptiv" tween="true" startValue="#ffffff" endValue="#ff0000" duration="48"/>
