@@ -126,8 +126,8 @@ export default class Platform extends Module {
 
 	/** 输出加载过的资源列表 */
 	private dump_loaded_resources() {
-		if (Laya['loaded_res_pathes']) {
-			return JSON.stringify(Object.keys(Laya['loaded_res_pathes']), undefined, "\t");
+		if (Laya.loader['loaded_res_pathes']) {
+			return JSON.stringify(Object.keys(Laya.loader['loaded_res_pathes']), undefined, "\t");
 		}
 	}
 
